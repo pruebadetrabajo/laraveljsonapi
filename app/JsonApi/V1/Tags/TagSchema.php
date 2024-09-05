@@ -16,11 +16,9 @@ class TagSchema extends Schema
 
     /**
      * The model the schema corresponds to.
-     *
      * @var string
      */
     public static string $model = Tag::class;
-
     /**
      * Get the resource fields.
      *
